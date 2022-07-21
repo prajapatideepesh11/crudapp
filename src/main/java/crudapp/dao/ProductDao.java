@@ -19,7 +19,7 @@ public class ProductDao {
 	@Transactional
 	public void createProduct(Product product) {
 		
-		this.hibernatetemplate.save(product);
+		this.hibernatetemplate.saveOrUpdate(product);
 	}
 	
 	//get all product
