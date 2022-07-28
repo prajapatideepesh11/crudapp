@@ -61,7 +61,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  <!--<build>
     <finalName>crudapp</finalName>
-  </build>
+  </build> -->
 </project>
